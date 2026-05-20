@@ -9,16 +9,10 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "@creative-ops-app": path.resolve(
-        __dirname,
-        "../creative-ops-system (12).jsx"
-      ),
+      "@creative-ops-app": path.resolve(__dirname, "src/CreativeOpsApp.jsx"),
     },
   },
   server: {
     port: 5173,
-    fs: {
-      allow: [path.resolve(__dirname, "..")],
-    },
   },
 });
