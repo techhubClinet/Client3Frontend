@@ -16,7 +16,7 @@ const SOPHISTICATION = ["Level 1 - first to market", "Level 2 - bigger claims", 
 const TYPES = ["Video", "Static", "Carousel", "UGC"];
 const STATUSES = ["Concept", "In Production", "Ready for Launch", "Launched"];
 const RESULTS = ["Winning Ad", "Losing Ad", "Data Awaiting"];
-const ORIGINS = ["HOLY DOC", "SUPPLEMENT", "Creative & Feed Back Loop", "Competitor Inspo", "Trend/Cultural", "Customer Research"];
+const ORIGINS = ["Creative & Feed Back Loop", "Competitor Inspo", "Trend/Cultural", "Customer Research"];
 
 const samples = [
   { id:"b36cc1cfe", name:"Batch #1", date:"2025-12-24", type:"Video", isNew:"Ideation", origin:"Creative & Feed Back Loop", get:"", who:"", to:"", by:"", purchaseTrigger:"", awareness:"Problem Aware", sophistication:"Level 4 - sophistication", beliefBefore:"", beliefAfter:"", hypothesis:"I create this becuase its sitting right on the awarenss stage. perfect timing and iterate on competitor winning ad", script:"", status:"Launched", result:"Losing Ad", angle:"", brief:"Untitled document", desire:"take a full breath that hits the bottom of his lungs" },
@@ -116,104 +116,6 @@ const samples = [
 const sampleLoops = [{"id": "fl36cc1cfe", "batchId": "b36cc1cfe", "videoLink": "https://www.facebook.com/reel/1132059775461308", "imageData": "", "hypothesisWhy": "* Hook is very cruisity driven \n* A good mechanism Timeline explaining each day what the product does\n* A Good Scrasity how each \u201c the plant\u201d is extract in small runs make it the product \u201c special \u201c waiting week to restoke creates scrarecity\n* Perfectly executed solution aware.", "actionPlan": "* Iterate on new whitelist pages \n* New visuals asap \n* New hooks test\n* New voiceovers", "completed": true, "createdAt": "2025-12-24"}, {"id": "fl9e92161f", "batchId": "b9e92161f", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-12-24"}, {"id": "fle39614e7", "batchId": "be39614e7", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-12-24"}, {"id": "fla9bccd3e", "batchId": "ba9bccd3e", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-01-01"}, {"id": "fl7b34563c", "batchId": "b7b34563c", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-01-04"}, {"id": "fled9ad062", "batchId": "bed9ad062", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-01-04"}, {"id": "flc5270e05", "batchId": "bc5270e05", "videoLink": "https://www.facebook.com/61585526673688/posts/122111045529184222/", "imageData": "", "hypothesisWhy": "We launched this brand a month ago this mof isnt ready\nFor this type of brand Very confusing concept.", "actionPlan": "Status: Killed \u2014 brand not ready", "completed": true, "createdAt": "2025-01-15"}, {"id": "fl2827527f", "batchId": "b2827527f", "videoLink": "https://www.facebook.com/reel/1614526286232570", "imageData": "", "hypothesisWhy": "- Hypothesis 1: The negative marketing frame (\"3 reasons I hate this\") attracts curiosity clickers, not buyers \u2014 high CTR but low purchase intent traffic, evidenced by the massive ATC-to-purchase drop (12 ATCs \u2192 1 purchase on Ad 3).\nHypothesis 2: The sarcastic tone creates a trust gap at checkout. The target demo (older smokers with real lung problems) may enjoy the content but not feel confident enough to buy from a brand that led with irony rather than sincerity.\nHypothesis 3: Ad-to-landing pa", "actionPlan": "Action 1: Let Ad \"2\" continue running at $40/day. It's the strongest performer at 1.80 ROAS. Give it $150\u2013200 more spend to confirm the signal holds with statistical significance. Monitor frequency \u2014 kill it if it hits 2.5+.\nAction 2: If Ad \"2\" stalls, build a direct response version: strip the negative angle, lead with a tight \"this mullein cleared my lungs\" transformation hook, and pair it with a dedicated mullein-specific LP that matches the message exactly \u2014 problem, mechanism, proof, offer,", "completed": true, "createdAt": ""}, {"id": "fl42bc4642", "batchId": "b42bc4642", "videoLink": "https://www.facebook.com/reel/830130550061289", "imageData": "", "hypothesisWhy": "-Weak UMP mechanism\nWeak overused mechanism everyone has heard it \nNew angle with no congruency lining page. This angle would have worked if maybe we had a direct grounding page with it. But still, the mechanism is so bad that it is saturated. I think we need to find a better mechanism.\nNot meeting the customers at the right time in the head, of course, after the hook you went straight for the mechanism. Nobody wants to hear their long lecture about how smoking damages their lungs is just insane", "actionPlan": "Very congruent direct response landing page.\nBefore running any mechanism, check if the mechanism meets certain metrics? Has her does the customer notice metric? Does the customer notice his mechanism? Have they heard her before? Is this really a good mechanism? Compared his mechanism to other", "completed": true, "createdAt": ""}, {"id": "fl22ce9422", "batchId": "b22ce9422", "videoLink": "https://www.facebook.com/61585526673688/posts/122113926507184222/", "imageData": "", "hypothesisWhy": "-Very pattern interrupt hook, telling people how to spot between the fakes and real. Very pattern interrupt curiosity, they want to know what's real, how to spot the real and how to spot the fakes.\n-iteraion on winning angle \u201c fake mullein\u201d\n- proof of study \u201c the author\u201d \n- exposing mechanism \nPersonal perspective exposing.", "actionPlan": "More hooks. We're going to test more hooks.\nMore concepts around this angle.", "completed": true, "createdAt": ""}, {"id": "flfa2a237f", "batchId": "bfa2a237f", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": ""}, {"id": "flfdff786e", "batchId": "bfdff786e", "videoLink": "https://www.facebook.com/reel/1614526286232570", "imageData": "", "hypothesisWhy": "- I believe they know that they're being advertised to. The second thing I believe is that they don't like watching news.Very good angle, but we can definitely do better. There's definitely a way to introduce this new angle. This is not a great way to introduce it. A new format will be better. I believe this angle failed because the way I mean maybe breaking news isn't something that we should have done. Overall CTR is completely garbage. People do not like this concept; they know that they're b", "actionPlan": "Testing new ways to describe this angle.\nMini ugc style \nStatic styles \nDefinitely not a news style.", "completed": true, "createdAt": ""}, {"id": "fl50660022", "batchId": "b50660022", "videoLink": "https://www.facebook.com/reel/1614526286232570", "imageData": "", "hypothesisWhy": "New Mechanism reframe \u2014 why everything else failed\nSpeaking the subgroup's language \u2014 naming their drugs, their side effects, their emotional reality\nThe dignity/independence fantasy \u2014 \"my doctor wanted to know what I was taking\" as a power reversal that channels anti-Big Pharma sentiment into aspiration rather than anger\nUSPs match real desires \u2014 modest, believable outcomes (spacing out flare-ups, breathing a bit easier)\nHook sourced from real proof \u2014 22% from an Amazon review gives it an authe", "actionPlan": "7 hook iterations \nNew format TOF PO", "completed": true, "createdAt": ""}, {"id": "fl591ea3e4", "batchId": "b591ea3e4", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": ""}, {"id": "fla1a71737", "batchId": "ba1a71737", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-02-20"}, {"id": "flb3e60b88", "batchId": "bb3e60b88", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-02-26"}, {"id": "fl90810b71", "batchId": "b90810b71", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "", "actionPlan": "New hooks \nNew concepts via monk", "completed": true, "createdAt": "2025-02-27"}, {"id": "fl9e698fd7", "batchId": "b9e698fd7", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-03-02"}, {"id": "fl3b0eb1f3", "batchId": "b3b0eb1f3", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "", "actionPlan": "we cut the \nbig phrama part \nwe make better statics \nwe cut the aggresive cta \n redo the ad", "completed": true, "createdAt": "2025-03-03"}, {"id": "fl8ee156a8", "batchId": "b8ee156a8", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "", "actionPlan": "What am I going to do differently as a result of this NEW information? (Ranked most confident to least", "completed": true, "createdAt": "2025-03-04"}, {"id": "flad011aba", "batchId": "bad011aba", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "", "actionPlan": "More hooks\nBetter reasoning \nNew possible lead", "completed": true, "createdAt": "2025-03-04"}, {"id": "flf9d2b31a", "batchId": "bf9d2b31a", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "", "actionPlan": "-Test more hooks \n- Possibly more New visuals", "completed": true, "createdAt": "2025-03-05"}, {"id": "fl715fc3c6", "batchId": "b715fc3c6", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a winning ad? (Ranked most confident to least  \n      * Prev winner it worked because of discount code we had in that static \n\n- mechanism war Are the monies in the market? You have to stand out by saying 20x stronger than the mechanism. Make it work. \n\n- Relatable message than anything you have tried. We acknowledge that they have tried other fake stuff and other diluted Mullein.", "actionPlan": "- same image- 3 diff new Relatable messaging.\n- Different pattern interrupt image- With the same messaging right now\nWhat am I going to do differently as a result of this NEW information? (Ranked most confident to least", "completed": true, "createdAt": "2025-03-11"}, {"id": "fl7ddebf27", "batchId": "b7ddebf27", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-03-11"}, {"id": "fldf5e75c3", "batchId": "bdf5e75c3", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a  losing ad? (Ranked most confident to least\n-boring mechanism ( they heard dozens of times) \n-Week hook ( the hook rates show is)\n- Introduce product too fast ( no connection whats so ever)", "actionPlan": "DEAD ANGLE NO ACTIONABLE STEPS \nMaybe a new mechansim i thkn idk fuck this angle.\nDr. Julian, ever since I stopped smoking, I get winded just walking to my car. I thought quitting was supposed to fix that. I get asked this every single day, and the answer is simple. Quitting stopped the damage, but it did not clear it. You see, you have a cleanup crew inside your lungs. Tiny hairs called cilia. Their only job, sweep the mucus out. every day on autopilot. And when you used to smoke, that cleanup ", "completed": true, "createdAt": "2025-03-15"}, {"id": "fle1efa123", "batchId": "be1efa123", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a losing ad? (Ranked most confident to least\n- Not calling out a direct avatar seems like this is abroad, this goes to everybody, rOnce you call out your avatar, you will filter out the rest.\n- skeptics about 1 ingredient doing all those things maybe tripel ingredients", "actionPlan": "Rewrite the ad using the new", "completed": true, "createdAt": "2025-03-18"}, {"id": "flfcf92c09", "batchId": "bfcf92c09", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a  losing ad? (Ranked most confident to least\nThis angle is a rinsed angle. I've used it more than 15 times in concepts. I feel like people are tired of it, and for this angle to win again, we need a dedicated landing page. I've rinsed this angle a lot of times.\n\n- This angle is like a pharmacist. Why is a pharmacist recommending a herbal?I mean, isn't he a part of the big pharma? It's kind of, I don't know, maybe a bit of an unbelievable story there. It's just, why would a pharmacis", "actionPlan": "- rinsed format \n- need new LP for these \nFired Pharmacist explains why CVS lung supplements will never clear your smoker's lungs. Mucinex, herbal cough syrups, put them right back on the shelf because these only thin the fresh mucus sitting on top. The deep tar that's been hardening in your lungs for 10, 20, 30 years. They were never designed to go that deep. You'll blow your nose for a day and nothing actually changes. In AC supplements, people grab these thinking it's a lung detox. It's an an", "completed": true, "createdAt": ""}, {"id": "flf57892e6", "batchId": "bf57892e6", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a winning ad? (Ranked most confident to least\n\n- winning message we had that was already a winner \n- iteration of winning ad ranking\nVery good author figure, ma", "actionPlan": "-Action 2: Produce the Next Iteration of the Competitive Teardown \n- More hooks", "completed": true, "createdAt": "2025-03-26"}, {"id": "fl44d82574", "batchId": "b44d82574", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a  Losing ad? (Ranked most confident to least\n            * Smoker being lectured ( smokers hate this ) they already know waht happen if they keep smoking\n- cruisty based ad that gets soft metrics but not real buyers", "actionPlan": "1. Write the first-person UGC", "completed": true, "createdAt": "2025-03-28"}, {"id": "fla6ce4e33", "batchId": "ba6ce4e33", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a winning ad  \n- Winning trending format\n- each ingredient links pain point \n- mechanism all in one dropper", "actionPlan": "More ai ingredients ads \nBetter ai speaking", "completed": true, "createdAt": "2025-04-04"}, {"id": "fl30b30d78", "batchId": "b30b30d78", "videoLink": "https://www.facebook.com/61585526673688/posts/122109303579184222/", "imageData": "", "hypothesisWhy": "-blue ocean angle ( Targeting a segment of audience where they have seen these types of chlorophyll mullein. Alright, and I failed at it. Telling them why I failed and what is real and fake.\n- A real research That backs up the claim that we're making.\n\n- The hook is very patterned, and it's just not something that you would expect. It's like, \"Whoa, what is the answer? I need to know what the did. Maybe I've tried that, maybe that's why it didn't work.\"It's just something that they need to know.", "actionPlan": "* 3-4 new hooks/ visual\n      * 1 new edit with new clips new voice", "completed": true, "createdAt": ""}, {"id": "fl8b2ca9c0", "batchId": "b8b2ca9c0", "videoLink": "", "imageData": "", "hypothesisWhy": ": First, a personalized, honest review about the mullein products\n- Meet the customer exactly at what awareness stage there at  .These are mof  for customers who know about Mullen.", "actionPlan": "New hooks, same body\n      * Same hook, new presenter\n      * Same", "completed": true, "createdAt": ""}, {"id": "fl7f3a498c", "batchId": "b7f3a498c", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a  Losing ad? (Ranked most confident to least\n         * Claim structure instead of conditional structure \u2014 \"Best herb for smokers who want X\" triggers skepticism instantly. \"If a smoker took X, this would happen\" makes them feel it themselves. One is you selling. One is them discovering.\n         * No timelines \u2014 \"10 days\" \"one week\" \"two weeks\" made the outcome feel real and close. You removed every single one. Without a timeline it's just a vague promise.\n         * No mechanism \u2014", "actionPlan": "Test more avatars not for only smoklers \nIf someone with asthma took 2\nIf a someone with copd took _ _ \nBack to old strutcher", "completed": true, "createdAt": ""}, {"id": "fla136c51e", "batchId": "ba136c51e", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "-", "actionPlan": "", "completed": true, "createdAt": ""}, {"id": "fl2f0d2fe9", "batchId": "b2f0d2fe9", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "- \n  \n\n  \n               * \nHard dr copy no one says \u201c scary levels of lung crarity\u201d \n- customer voice not matched", "actionPlan": "Test new reviews instead , that customers say swap it out.", "completed": true, "createdAt": ""}, {"id": "fl4edd42c4", "batchId": "b4edd42c4", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "-there is no more initial thought behind this ad why it first worked why it became a winner that i copied so i just monkey see monkey do turns out to be miserable ad", "actionPlan": "No actions plan terrible ad", "completed": true, "createdAt": ""}];
 
 const genId = () => "b" + Date.now().toString(36) + Math.random().toString(36).substr(2, 4);
-
-/** Cursor canvas provides window.storage; Vite/browser uses localStorage fallback. */
-if (typeof window !== "undefined") {
-  const hasHostStorage =
-    window.storage &&
-    typeof window.storage.get === "function" &&
-    typeof window.storage.set === "function";
-  if (!hasHostStorage) {
-    const prefix = "creative-ops:";
-    window.storage = {
-      async get(key) {
-        try {
-          let raw = localStorage.getItem(prefix + key);
-          if (raw === null) raw = localStorage.getItem(key);
-          if (raw === null) return undefined;
-          return { value: raw };
-        } catch {
-          return undefined;
-        }
-      },
-      async set(key, value) {
-        try {
-          localStorage.setItem(
-            prefix + key,
-            typeof value === "string" ? value : String(value)
-          );
-        } catch {}
-      },
-      async delete(key) {
-        try {
-          localStorage.removeItem(prefix + key);
-        } catch {}
-      },
-    };
-  }
-}
-
-/** Backend URL: set in frontend/src/appConfig.js (loaded via main.jsx → window.__CREATIVE_OPS_API__) */
-const LS_TOKEN_KEY = "creative-ops-jwt";
-function getCreativeOpsApiBase() {
-  if (typeof window !== "undefined" && window.__CREATIVE_OPS_API__) {
-    return String(window.__CREATIVE_OPS_API__).replace(/\/$/, "");
-  }
-  return "";
-}
-
-async function apiFetchPublic(base, path, options = {}) {
-  const url = `${base}${path}`;
-  const headers = { "Content-Type": "application/json", ...options.headers };
-  const r = await fetch(url, { ...options, headers });
-  const text = await r.text();
-  let data;
-  try {
-    data = text ? JSON.parse(text) : null;
-  } catch {
-    data = { raw: text };
-  }
-  if (!r.ok) throw new Error(data?.error || data?.message || r.statusText || "Request failed");
-  return data;
-}
-
-function normalizeBatch(b) {
-  return {
-    ...b,
-    isNew: b.isNew === "New Messaging" ? "Ideation" : b.isNew,
-    date:
-      b.date && b.date.startsWith("2025-") && !b.date.startsWith("2025-12")
-        ? b.date.replace("2025-", "2026-")
-        : b.date,
-  };
-}
-
-async function apiFetchAuth(base, token, path, options = {}) {
-  if (!token) throw new Error("Not logged in");
-  const headers = {
-    "Content-Type": "application/json",
-    Authorization: `Bearer ${token}`,
-    ...options.headers,
-  };
-  const url = `${base}${path}`;
-  const r = await fetch(url, { ...options, headers });
-  const text = await r.text();
-  let data;
-  try {
-    data = text ? JSON.parse(text) : null;
-  } catch {
-    data = { raw: text };
-  }
-  if (r.status === 401) {
-    try {
-      localStorage.removeItem(LS_TOKEN_KEY);
-    } catch {}
-    throw new Error("Session expired — log in again");
-  }
-  if (!r.ok) throw new Error(data?.error || data?.message || r.statusText || "Request failed");
-  return data;
-}
-
 const getMediaType = (dataUrl, hint) => {
   if (!dataUrl) return "none";
   if (hint === "image") return "image";
@@ -863,6 +765,8 @@ export default function App() {
   const saveDocs = useCallback(async(d)=>{ setDocs(d); try{ await window.storage.set("brand-"+currentBrand+"-docs",JSON.stringify(d)); }catch{} scheduleRemoteSync(); },[currentBrand, scheduleRemoteSync]);
   const saveIdeas = useCallback(async(i)=>{ setIdeas(i); try{ await window.storage.set("brand-"+currentBrand+"-ideas",JSON.stringify(i)); }catch{} scheduleRemoteSync(); },[currentBrand, scheduleRemoteSync]);
 
+
+
   // Migrate feedback loop content from Google Doc
   useEffect(()=>{
     if(!loaded||batches.length===0||loops.length===0) return;
@@ -937,7 +841,7 @@ export default function App() {
   const filtered = useMemo(()=>{
     let f = batches.filter(b=>(fS==="All"||b.status===fS)&&(fR==="All"||b.result===fR));
     if(search.trim()) { const s=search.toLowerCase(); f=f.filter(b=>(b.name||"").toLowerCase().includes(s)||(b.angle||"").toLowerCase().includes(s)||(b.hypothesis||"").toLowerCase().includes(s)||(b.desire||"").toLowerCase().includes(s)||(b.brief||"").toLowerCase().includes(s)); }
-    if(drill) { f=f.filter(b=>{ if(drill.field==="angle") return (b.angle||"").toLowerCase().includes(drill.value.toLowerCase()); return (b[drill.field]||"")===drill.value; }); }
+    if(drill) { f=f.filter(b=>{ if(drill.field==="angle") return (b.angle||"").toLowerCase().includes(drill.value.toLowerCase()); if(drill.field==="get") { const ext=(g)=>{if(!g)return"";let a=g.split(/\bwho\b|\bthat\b|\bwith\b|\bcurrently\b|\bshopping\b|\bscrolling\b|\blooking\b|\bbuying\b|\btrying\b|\btaking\b|\bsuffering\b|\bhave been\b|\band they\b|\band it\b|\. /i)[0].trim().replace(/^[:\s]+/,'').replace(/\s*\d[\d\s\-+]*$/,'').replace(/\s+and\s+ex-\w+/i,'').replace(/\s*patients?\b/i,'').trim();return a?a.charAt(0).toUpperCase()+a.slice(1):"";}; return ext(b.get)===drill.value; } if(drill.field==="date") { const d=b.date||""; const mon=drill.value; const sun=new Date(new Date(mon).getTime()+6*86400000).toISOString().split("T")[0]; return d>=mon&&d<=sun; } return (b[drill.field]||"")===drill.value; }); }
     f.sort((a,b)=>{
       let va=a[sortCol]||"", vb=b[sortCol]||"";
       if(sortCol==="name"){const na=parseInt((a.name.match(/#(\d+)/)||[])[1])||0,nb=parseInt((b.name.match(/#(\d+)/)||[])[1])||0;return sortDir==="asc"?na-nb:nb-na;}
@@ -1144,7 +1048,7 @@ export default function App() {
                   const rated = wins + losses;
                   const hr = rated > 0 ? ((wins/rated)*100).toFixed(0) : null;
                   const isThis = monStr===thisMonday.toISOString().split("T")[0];
-                  allWeeks.push({ mon, monStr, sunStr, total:launched.length, wins, losses, rated, hr, isThis });
+                  allWeeks.push({ mon, monStr, sunStr, total:launched.length, wins, losses, rated, hr, isThis, batches:launched });
                   cur.setDate(cur.getDate()+7);
                 }
               }
@@ -1196,10 +1100,11 @@ export default function App() {
                   {allWeeks.slice(-16).map((w,i,arr)=>{
                     const isLast = i===arr.length-1;
                     const isPrev = i===arr.length-2;
+                    const isSel = selectedWeek===w.monStr;
                     return (
-                      <div key={w.monStr} style={{ flex:1, display:"flex", flexDirection:"column", alignItems:"center", gap:2 }} title={`${w.monStr}: ${w.total} launched, ${w.wins} wins`}>
+                      <div key={w.monStr} onClick={()=>setSelectedWeek(isSel?null:w.monStr)} style={{ flex:1, display:"flex", flexDirection:"column", alignItems:"center", gap:2, cursor:"pointer", opacity:selectedWeek&&!isSel?0.4:1, transition:"opacity 0.2s" }} title={`${w.monStr}: ${w.total} launched, ${w.wins} wins`}>
                         {w.total>0&&<span style={{ fontSize:10, fontWeight:700, color:C.text }}>{w.total}</span>}
-                        <div style={{ width:"100%", maxWidth:36, height:Math.max((w.total/maxTotal)*70,w.total>0?6:1), borderRadius:4, overflow:"hidden", position:"relative" }}>
+                        <div style={{ width:"100%", maxWidth:36, height:Math.max((w.total/maxTotal)*70,w.total>0?6:1), borderRadius:4, overflow:"hidden", position:"relative", outline:isSel?`2px solid ${C.purple}`:"none", outlineOffset:2 }}>
                           <div style={{ position:"absolute", inset:0, background:w.total>=weeklyGoal?C.greenBg:w.total>0?"#d5d5e4":C.borderLight, borderRadius:4 }}/>
                           {w.wins>0&&<div style={{ position:"absolute", bottom:0, left:0, right:0, height:`${(w.wins/w.total)*100}%`, background:w.total>=weeklyGoal?C.green:C.purple, borderRadius:"0 0 4px 4px" }}/>}
                         </div>
@@ -1214,6 +1119,89 @@ export default function App() {
                   <span style={{ display:"flex", alignItems:"center", gap:4 }}><span style={{ width:8, height:8, borderRadius:2, background:"#d5d5e4" }}/>Launched</span>
                   <span style={{ display:"flex", alignItems:"center", gap:4 }}><span style={{ width:8, height:8, borderRadius:2, background:C.green }}/>Goal hit</span>
                 </div>
+
+                {/* Week detail panel */}
+                {selectedWeek&&(()=>{
+                  const wk=allWeeks.find(w=>w.monStr===selectedWeek);
+                  if(!wk) return null;
+                  const wb=wk.batches||datedBatches.filter(b=>b.date>=wk.monStr&&b.date<=wk.sunStr);
+                  const winners=wb.filter(b=>b.result==="Winning Ad");
+                  const losers=wb.filter(b=>b.result==="Losing Ad");
+
+                  // Count personas - extract core avatar from GET field
+                  const extractAvatar = (get) => {
+                    if(!get) return null;
+                    let a = get.split(/\bwho\b|\bthat\b|\bwith\b|\bcurrently\b|\bshopping\b|\bscrolling\b|\blooking\b|\bbuying\b|\btrying\b|\btaking\b|\bsuffering\b|\bhave been\b|\band they\b|\band it\b|\. /i)[0].trim();
+                    a = a.replace(/^[:\s]+/,'').replace(/\s*\d[\d\s\-+]*$/,'').replace(/\s+and\s+ex-\w+/i,'').replace(/\s*patients?\b/i,'').trim();
+                    return a ? a.charAt(0).toUpperCase()+a.slice(1) : null;
+                  };
+                  const personas={};
+                  wb.forEach(b=>{
+                    const a = extractAvatar(b.get);
+                    if(a) personas[a]=(personas[a]||0)+1;
+                  });
+                  const topPersonas=Object.entries(personas).sort((a,b)=>b[1]-a[1]).slice(0,4);
+
+                  // Count angles
+                  const angles={};
+                  wb.forEach(b=>{if(b.angle){angles[b.angle]=(angles[b.angle]||0)+1;}});
+                  const topAngles=Object.entries(angles).sort((a,b)=>b[1]-a[1]).slice(0,3);
+
+                  // Count awareness
+                  const aware={};
+                  wb.forEach(b=>{if(b.awareness){aware[b.awareness]=(aware[b.awareness]||0)+1;}});
+                  const topAware=Object.entries(aware).sort((a,b)=>b[1]-a[1]);
+
+                  return (
+                    <div style={{ marginTop:16, background:C.purpleSoft, borderRadius:10, padding:16, border:`1px solid ${C.purpleBg}` }}>
+                      <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", marginBottom:12 }}>
+                        <div style={{ fontSize:14, fontWeight:700 }}>Week of {wk.monStr} to {wk.sunStr}</div>
+                        <button onClick={()=>setSelectedWeek(null)} style={{ background:"none", border:"none", color:C.textTer, cursor:"pointer", fontSize:16 }}>x</button>
+                      </div>
+                      <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr 1fr", gap:12, marginBottom:14 }}>
+                        <div style={{ background:C.white, borderRadius:8, padding:12 }}>
+                          <div style={{ fontSize:11, fontWeight:600, color:C.textTer, textTransform:"uppercase", marginBottom:6 }}>Top Avatars</div>
+                          {topPersonas.length>0?topPersonas.slice(0,2).map(([p,c])=>(
+                            <div key={p} style={{ fontSize:12, marginBottom:4 }}><span style={{ fontWeight:600 }}>{c}x</span> {p}</div>
+                          )):<div style={{ fontSize:12, color:C.textTer }}>Fill in GET field on briefs</div>}
+                          {topPersonas.length>2&&<div style={{ fontSize:11, color:C.purple, fontWeight:600, marginTop:6, cursor:"pointer" }} onClick={()=>{setSelectedWeek(null);setTab("batches");setSearch("");setFS("All");setFR("All");setDrill({field:"date",value:wk.monStr,label:`Week ${wk.monStr}`});}}>View all {topPersonas.length} →</div>}
+                        </div>
+                        <div style={{ background:C.white, borderRadius:8, padding:12 }}>
+                          <div style={{ fontSize:11, fontWeight:600, color:C.textTer, textTransform:"uppercase", marginBottom:6 }}>Top Angles ({topAngles.length})</div>
+                          {topAngles.slice(0,2).map(([a,c])=>(
+                            <div key={a} style={{ fontSize:12, marginBottom:4 }}><span style={{ fontWeight:600 }}>{c}x</span> {a.slice(0,25)}</div>
+                          ))}
+                          <div style={{ fontSize:11, color:C.purple, fontWeight:600, marginTop:6, cursor:"pointer" }} onClick={()=>{setSelectedWeek(null);setTab("batches");setSearch("");setFS("All");setFR("All");setDrill({field:"date",value:wk.monStr,label:`Week ${wk.monStr}`});}}>View all {topAngles.length} →</div>
+                        </div>
+                        <div style={{ background:C.white, borderRadius:8, padding:12 }}>
+                          <div style={{ fontSize:11, fontWeight:600, color:C.textTer, textTransform:"uppercase", marginBottom:6 }}>Awareness Split</div>
+                          {topAware.slice(0,2).map(([a,c])=>(
+                            <div key={a} style={{ fontSize:12, marginBottom:4 }}><span style={{ fontWeight:600 }}>{c}x</span> {a}</div>
+                          ))}
+                          {topAware.length>2&&<div style={{ fontSize:11, color:C.purple, fontWeight:600, marginTop:6, cursor:"pointer" }} onClick={()=>{setSelectedWeek(null);setTab("batches");setSearch("");setFS("All");setFR("All");setDrill({field:"date",value:wk.monStr,label:`Week ${wk.monStr}`});}}>View all {topAware.length} →</div>}
+                        </div>
+                      </div>
+                      {winners.length>0&&(
+                        <div style={{ marginBottom:10 }}>
+                          <div style={{ fontSize:12, fontWeight:700, color:C.greenText, marginBottom:6 }}>Winners This Week</div>
+                          {winners.map(b=>(
+                            <div key={b.id} style={{ fontSize:12, padding:"6px 10px", background:C.greenBg, borderRadius:6, marginBottom:4, display:"flex", justifyContent:"space-between" }}>
+                              <span style={{ fontWeight:600 }}>{b.name}</span>
+                              <span style={{ color:C.textSec }}>{b.angle||""}</span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                      <div style={{ fontSize:12, fontWeight:600, color:C.textTer, marginBottom:6 }}>All Concepts ({wb.length})</div>
+                      {wb.map(b=>(
+                        <div key={b.id} style={{ fontSize:12, padding:"4px 0", borderBottom:`1px solid ${C.borderLight}`, display:"flex", justifyContent:"space-between" }}>
+                          <span>{b.name} - {(b.angle||"").slice(0,30)}</span>
+                          <Pill text={b.result}/>
+                        </div>
+                      ))}
+                    </div>
+                  );
+                })()}
               </>);
             })()}
           </Card>
@@ -1226,11 +1214,10 @@ export default function App() {
             <button onClick={()=>{setTab("batches");setShowForm(false);}} style={{ background:"none", border:"none", color:C.purple, fontSize:13, cursor:"pointer", fontWeight:500 }}>View all →</button>
           </div>
           {batches.slice(0,5).map(b=>(
-            <div key={b.id} onClick={()=>setDetail(b.id)} style={{ display:"grid", gridTemplateColumns:"110px 70px 110px 1fr 100px 100px", gap:10, padding:"10px 8px", borderRadius:8, cursor:"pointer", alignItems:"center", fontSize:13, transition:"background 0.12s" }} onMouseEnter={e=>e.currentTarget.style.background=C.bg} onMouseLeave={e=>e.currentTarget.style.background="transparent"}>
+            <div key={b.id} onClick={()=>setDetail(b.id)} style={{ display:"grid", gridTemplateColumns:"100px 60px 1fr 130px 120px", gap:8, padding:"10px 8px", borderRadius:8, cursor:"pointer", alignItems:"center", fontSize:13, transition:"background 0.12s" }} onMouseEnter={e=>e.currentTarget.style.background=C.bg} onMouseLeave={e=>e.currentTarget.style.background="transparent"}>
               <span style={{ fontWeight:600, display:"flex", alignItems:"center", gap:4 }}>{b.name}{loops.some(l=>l.batchId===b.id&&l.completed)&&<span style={{ width:14, height:14, borderRadius:"50%", background:C.purple, color:"#fff", fontSize:8, fontWeight:800, display:"inline-flex", alignItems:"center", justifyContent:"center", flexShrink:0 }}>↻</span>}</span>
               <Pill text={b.type}/>
-              <span style={{ fontSize:12, color:C.textSec, overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>{b.angle||""}</span>
-              <span style={{ color:C.textSec, overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>{b.hypothesis||""}</span>
+              <span style={{ fontSize:12, color:C.textSec, overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>{b.angle||b.hypothesis||""}</span>
               <Pill text={b.status}/>
               <Pill text={b.result}/>
             </div>
@@ -1455,7 +1442,7 @@ export default function App() {
         {/* Table view */}
         {viewMode==="table"&&(
           <Card style={{ overflow:"hidden" }}>
-            <div style={{ display:"grid", gridTemplateColumns:"32px 100px 68px 68px 100px 1fr 100px 100px 120px", gap:6, padding:"10px 16px", borderBottom:`1px solid ${C.border}`, fontSize:11, color:C.textTer, fontWeight:600, textTransform:"uppercase", letterSpacing:"0.05em" }}>
+            <div style={{ display:"grid", gridTemplateColumns:"32px 100px 68px 68px 90px 1fr 100px 130px 130px", gap:6, padding:"10px 16px", borderBottom:`1px solid ${C.border}`, fontSize:11, color:C.textTer, fontWeight:600, textTransform:"uppercase", letterSpacing:"0.05em" }}>
               <span></span>
               {[{k:"name",l:"Name"},{k:"date",l:"Date"},{k:"type",l:"Type"},{k:"isNew",l:"New/Iter"},{k:"angle",l:"Angle"},{k:"awareness",l:"Awareness"},{k:"status",l:"Status"},{k:"result",l:"Result"}].map(h=>(
                 <span key={h.k} onClick={()=>toggleSort(h.k)} style={{ cursor:"pointer", userSelect:"none", display:"flex", alignItems:"center", gap:3 }}>
@@ -1467,7 +1454,7 @@ export default function App() {
               {filtered.map((b,idx)=>{
                 const isSelected = selectedBatches.has(b.id);
                 return (
-                <div key={b.id} style={{ display:"grid", gridTemplateColumns:"32px 100px 68px 68px 100px 1fr 100px 100px 120px", gap:6, padding:"10px 16px", alignItems:"center", fontSize:13, borderBottom:`1px solid ${C.borderLight}`, transition:"background 0.1s", background:isSelected?C.purpleSoft:"transparent" }} onMouseEnter={e=>{if(!isSelected)e.currentTarget.style.background=C.bg}} onMouseLeave={e=>{if(!isSelected)e.currentTarget.style.background=isSelected?C.purpleSoft:"transparent"}}>
+                <div key={b.id} style={{ display:"grid", gridTemplateColumns:"32px 100px 68px 68px 90px 1fr 100px 130px 130px", gap:6, padding:"10px 16px", alignItems:"center", fontSize:13, borderBottom:`1px solid ${C.borderLight}`, transition:"background 0.1s", background:isSelected?C.purpleSoft:"transparent" }} onMouseEnter={e=>{if(!isSelected)e.currentTarget.style.background=C.bg}} onMouseLeave={e=>{if(!isSelected)e.currentTarget.style.background=isSelected?C.purpleSoft:"transparent"}}>
                   {/* Checkbox */}
                   <div onClick={(e)=>{
                     const newSet = new Set(selectedBatches);
@@ -1907,30 +1894,53 @@ export default function App() {
             <h2 style={{ fontSize:20, fontWeight:700, margin:0 }}>Research</h2>
             <p style={{ fontSize:13, color:C.textSec, margin:"4px 0 0" }}>Personas, angles, customer research, holy docs, and everything else.</p>
           </div>
-          {!showDoc&&<button onClick={()=>{setShowDoc(true);setEditDoc(null);setDocForm({title:"",content:""});}} style={{ background:C.purple, color:"#fff", border:"none", borderRadius:8, padding:"8px 18px", fontSize:13, fontWeight:600, cursor:"pointer" }}>+ New Doc</button>}
+          {!showDoc&&<button onClick={()=>{setShowDoc(true);setEditDoc(null);setDocForm({title:"",content:""});setDocMode("edit");}} style={{ background:C.purple, color:"#fff", border:"none", borderRadius:8, padding:"8px 18px", fontSize:13, fontWeight:600, cursor:"pointer" }}>+ New Doc</button>}
         </div>
 
-        {/* Doc Editor */}
+        {/* Doc Viewer/Editor */}
         {showDoc&&(
           <Card style={{ padding:28, boxShadow:C.shadowMd }}>
             <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", marginBottom:16 }}>
-              <h3 style={{ fontSize:17, fontWeight:700, margin:0 }}>{editDoc?"Edit Doc":"New Research Doc"}</h3>
-              <button onClick={()=>{setShowDoc(false);setEditDoc(null);}} style={{ background:"none", border:"none", color:C.textTer, cursor:"pointer", fontSize:20 }}>x</button>
+              <h3 style={{ fontSize:17, fontWeight:700, margin:0 }}>{!editDoc?"New Research Doc":docMode==="read"?docForm.title:"Edit Doc"}</h3>
+              <div style={{ display:"flex", gap:8, alignItems:"center" }}>
+                {editDoc&&docMode==="read"&&<button onClick={()=>setDocMode("edit")} style={{ background:C.purpleSoft, color:C.purple, border:"none", borderRadius:8, padding:"6px 16px", fontSize:13, fontWeight:600, cursor:"pointer" }}>Edit</button>}
+                {editDoc&&docMode==="edit"&&<button onClick={()=>setDocMode("read")} style={{ background:C.bg, color:C.textSec, border:"none", borderRadius:8, padding:"6px 16px", fontSize:13, cursor:"pointer" }}>Read</button>}
+                <button onClick={()=>{setShowDoc(false);setEditDoc(null);setDocMode("read");}} style={{ background:"none", border:"none", color:C.textTer, cursor:"pointer", fontSize:20 }}>x</button>
+              </div>
             </div>
-            <Inp label="Document Title" value={docForm.title} onChange={v=>setDocForm({...docForm,title:v})} ph="e.g. Linda - The Hidden Smoker, New Angles Research, HOLY DOC..." style={{ marginBottom:12 }}/>
-            <div style={{ display:"flex", flexDirection:"column", gap:5, marginBottom:16 }}>
-              <label style={{ fontSize:12, fontWeight:600, color:C.textSec }}>Content</label>
-              <textarea value={docForm.content} onChange={e=>setDocForm({...docForm,content:e.target.value})} placeholder={"Write your research here...\n\nDEMOGRAPHIC\nName: Linda\nAge: 54\n\nCORE PROBLEM\nThe suffocating shame of being a female smoker...\n\nTOP 5 MOST POWERFUL EMOTIONS\n1. Crushing shame\n2. Disgust with her own body\n..."} style={{ border:`1px solid ${C.border}`, borderRadius:8, padding:"14px 16px", fontSize:14, color:C.text, outline:"none", background:C.white, fontFamily:"inherit", width:"100%", boxSizing:"border-box", resize:"vertical", minHeight:400, lineHeight:1.7 }} onFocus={e=>e.target.style.borderColor=C.purple} onBlur={e=>e.target.style.borderColor=C.border}/>
-            </div>
-            <div style={{ display:"flex", gap:10 }}>
-              <button onClick={()=>{
-                if(!docForm.title.trim()) return;
-                if(editDoc) saveDocs(docs.map(d=>d.id===editDoc?{...d,title:docForm.title,content:docForm.content,updatedAt:new Date().toISOString().split("T")[0]}:d));
-                else saveDocs([{id:genId(),title:docForm.title,content:docForm.content,createdAt:new Date().toISOString().split("T")[0],updatedAt:new Date().toISOString().split("T")[0]},...docs]);
-                setShowDoc(false);setEditDoc(null);
-              }} style={{ background:C.purple, color:"#fff", border:"none", borderRadius:8, padding:"10px 24px", fontSize:14, fontWeight:600, cursor:"pointer" }}>{editDoc?"Save Changes":"Create Doc"}</button>
-              {editDoc&&<button onClick={()=>{saveDocs(docs.filter(d=>d.id!==editDoc));setShowDoc(false);setEditDoc(null);}} style={{ background:C.redBg, color:C.redText, border:"none", borderRadius:8, padding:"10px 20px", fontSize:14, fontWeight:600, cursor:"pointer" }}>Delete</button>}
-            </div>
+            {editDoc&&docMode==="read"?(
+              <div style={{ lineHeight:1.8, fontSize:14, color:C.text }}>
+                {docForm.content.split("\n").map((line,i)=>{
+                  const l=line.trim();
+                  if(!l) return <div key={i} style={{ height:12 }}/>;
+                  if(l===l.toUpperCase()&&l.length>3&&l.match(/[A-Z]/)) return <div key={i} style={{ fontSize:16, fontWeight:700, color:C.text, marginTop:16, marginBottom:6 }}>{l}</div>;
+                  if(l.match(/^\d+\.\s/)) return <div key={i} style={{ paddingLeft:16, marginBottom:4 }}><span style={{ fontWeight:700, color:C.purple }}>{l.match(/^\d+/)[0]}.</span> {l.replace(/^\d+\.\s*/,"")}</div>;
+                  if(l.startsWith("-")) return <div key={i} style={{ paddingLeft:16, marginBottom:4 }}>&#8226; {l.slice(1).trim()}</div>;
+                  return <div key={i} style={{ marginBottom:4 }}>{l}</div>;
+                })}
+                <div style={{ display:"flex", gap:10, marginTop:24 }}>
+                  <button onClick={()=>setDocMode("edit")} style={{ background:C.purple, color:"#fff", border:"none", borderRadius:8, padding:"10px 24px", fontSize:14, fontWeight:600, cursor:"pointer" }}>Edit Doc</button>
+                  <button onClick={()=>{saveDocs(docs.filter(d=>d.id!==editDoc));setShowDoc(false);setEditDoc(null);setDocMode("read");}} style={{ background:C.redBg, color:C.redText, border:"none", borderRadius:8, padding:"10px 20px", fontSize:14, fontWeight:600, cursor:"pointer" }}>Delete</button>
+                </div>
+              </div>
+            ):(
+              <>
+                <Inp label="Document Title" value={docForm.title} onChange={v=>setDocForm({...docForm,title:v})} ph="e.g. Personas, Angles, Customer Research..." style={{ marginBottom:12 }}/>
+                <div style={{ display:"flex", flexDirection:"column", gap:5, marginBottom:16 }}>
+                  <label style={{ fontSize:12, fontWeight:600, color:C.textSec }}>Content</label>
+                  <textarea value={docForm.content} onChange={e=>setDocForm({...docForm,content:e.target.value})} placeholder={"Write your research here...\n\nUse ALL CAPS for section headers\n1. Numbered lists\n- Bullet points"} style={{ border:`1px solid ${C.border}`, borderRadius:8, padding:"14px 16px", fontSize:14, color:C.text, outline:"none", background:C.white, fontFamily:"inherit", width:"100%", boxSizing:"border-box", resize:"vertical", minHeight:400, lineHeight:1.7 }} onFocus={e=>e.target.style.borderColor=C.purple} onBlur={e=>e.target.style.borderColor=C.border}/>
+                </div>
+                <div style={{ display:"flex", gap:10 }}>
+                  <button onClick={()=>{
+                    if(!docForm.title.trim()) return;
+                    if(editDoc) { saveDocs(docs.map(d=>d.id===editDoc?{...d,title:docForm.title,content:docForm.content,updatedAt:new Date().toISOString().split("T")[0]}:d)); setDocMode("read"); }
+                    else { saveDocs([{id:genId(),title:docForm.title,content:docForm.content,createdAt:new Date().toISOString().split("T")[0],updatedAt:new Date().toISOString().split("T")[0]},...docs]); setShowDoc(false);setEditDoc(null); }
+                  }} style={{ background:C.purple, color:"#fff", border:"none", borderRadius:8, padding:"10px 24px", fontSize:14, fontWeight:600, cursor:"pointer" }}>{editDoc?"Save Changes":"Create Doc"}</button>
+                  {editDoc&&<button onClick={()=>setDocMode("read")} style={{ background:C.bg, color:C.textSec, border:"none", borderRadius:8, padding:"10px 20px", fontSize:14, cursor:"pointer" }}>Cancel</button>}
+                  {editDoc&&<button onClick={()=>{saveDocs(docs.filter(d=>d.id!==editDoc));setShowDoc(false);setEditDoc(null);setDocMode("read");}} style={{ background:C.redBg, color:C.redText, border:"none", borderRadius:8, padding:"10px 20px", fontSize:14, fontWeight:600, cursor:"pointer" }}>Delete</button>}
+                </div>
+              </>
+            )}
           </Card>
         )}
 
@@ -1947,7 +1957,7 @@ export default function App() {
           <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr 1fr", gap:14 }}>
             {docs.map(d=>(
               <Card key={d.id} style={{ padding:0, cursor:"pointer", overflow:"hidden" }} >
-                <div onClick={()=>{setDocForm({title:d.title,content:d.content});setEditDoc(d.id);setShowDoc(true);}}>
+                <div onClick={()=>{setDocForm({title:d.title,content:d.content});setEditDoc(d.id);setShowDoc(true);setDocMode("read");}}>
                   {/* Header */}
                   <div style={{ background:`linear-gradient(135deg, ${C.purpleBg}, #e8eaf6)`, padding:"20px 20px 16px" }}>
                     <div style={{ fontSize:15, fontWeight:700, color:C.text, marginBottom:4 }}>{d.title}</div>
@@ -1988,6 +1998,58 @@ export default function App() {
             ))}
           </div>
         </Card>
+
+        {/* Winning Avatars */}
+        {(()=>{
+          const extractAvatar2 = (get) => {
+            if(!get) return null;
+            let a = get.split(/\bwho\b|\bthat\b|\bwith\b|\bcurrently\b|\bshopping\b|\bscrolling\b|\blooking\b|\bbuying\b|\btrying\b|\btaking\b|\bsuffering\b|\bhave been\b|\band they\b|\band it\b|\. /i)[0].trim();
+            a = a.replace(/^[:\s]+/,'').replace(/\s*\d[\d\s\-+]*$/,'').replace(/\s+and\s+ex-\w+/i,'').replace(/\s*patients?\b/i,'').trim();
+            return a ? a.charAt(0).toUpperCase()+a.slice(1) : null;
+          };
+          const avatarMap={};
+          batches.forEach(b=>{
+            const a = extractAvatar2(b.get);
+            if(!a) return;
+            if(!avatarMap[a]) avatarMap[a]={total:0,wins:0,losses:0,batches:[]};
+            avatarMap[a].total++;
+            avatarMap[a].batches.push(b.name);
+            if(b.result==="Winning Ad") avatarMap[a].wins++;
+            if(b.result==="Losing Ad") avatarMap[a].losses++;
+          });
+          const winAvatars=Object.entries(avatarMap).sort((a,b)=>b[1].total-a[1].total);
+          if(winAvatars.length===0) return (
+            <Card style={{ padding:24 }}>
+              <div style={{ fontSize:14, fontWeight:700, marginBottom:4 }}>Avatars</div>
+              <div style={{ fontSize:12, color:C.textSec }}>Fill in the GET field on your briefs to track which audiences you're targeting and which produce winners.</div>
+            </Card>
+          );
+          return (
+            <Card style={{ padding:24 }}>
+              <div style={{ fontSize:14, fontWeight:700, marginBottom:4 }}>Avatars</div>
+              <div style={{ fontSize:12, color:C.textSec, marginBottom:16 }}>Target audiences ranked by volume. Click to see all batches for that avatar.</div>
+              <div style={{ display:"flex", flexDirection:"column", gap:6 }}>
+                {winAvatars.map(([avatar,data],i)=>{
+                  const rated=data.wins+data.losses;
+                  const hr=rated>0?((data.wins/rated)*100).toFixed(0):0;
+                  return (
+                    <div key={avatar} onClick={()=>drillInto("get",avatar,`Avatar: ${avatar.slice(0,30)}...`)} style={{ display:"flex", alignItems:"center", gap:12, padding:"10px 14px", background:i===0?C.greenBg:C.bg, borderRadius:8, border:i===0?`1px solid ${C.green}`:`1px solid ${C.borderLight}`, cursor:"pointer", transition:"transform 0.1s" }} onMouseEnter={e=>e.currentTarget.style.transform="translateX(4px)"} onMouseLeave={e=>e.currentTarget.style.transform="none"}>
+                      <span style={{ fontSize:16, fontWeight:800, color:i===0?C.greenText:C.textTer, minWidth:28 }}>#{i+1}</span>
+                      <div style={{ flex:1, minWidth:0 }}>
+                        <div style={{ fontSize:13, fontWeight:600, overflow:"hidden", textOverflow:"ellipsis", whiteSpace:"nowrap" }}>{avatar}</div>
+                        <div style={{ fontSize:11, color:C.textTer }}>{data.batches.slice(0,3).join(", ")}</div>
+                      </div>
+                      <div style={{ textAlign:"right", flexShrink:0 }}>
+                        <div style={{ fontSize:16, fontWeight:700, color:data.wins>0?C.greenText:C.text }}>{data.total} ads</div>
+                        <div style={{ fontSize:11, color:C.textTer }}>{data.wins>0?`${data.wins} wins - ${hr}%`:`${data.losses} losses`}</div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </Card>
+          );
+        })()}
 
         {/* Dead Angles */}
         {(()=>{
@@ -2074,7 +2136,7 @@ export default function App() {
         </Card>
 
         {/* Reports & Exports */}
-        <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:14 }}>
+        <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr 1fr", gap:14 }}>
           <Card style={{ padding:24 }}>
             <div style={{ fontSize:14, fontWeight:700, marginBottom:4 }}>Weekly Report</div>
             <div style={{ fontSize:12, color:C.textSec, marginBottom:12 }}>Select a week and download a full creative performance report.</div>
@@ -2192,6 +2254,27 @@ export default function App() {
               const a=document.createElement("a");a.href=dataUrl;a.download=`feedback-loops-export-${new Date().toISOString().split("T")[0]}.txt`;a.click();
             }} style={{ background:C.purple, color:"#fff", border:"none", borderRadius:8, padding:"10px 20px", fontSize:13, fontWeight:600, cursor:"pointer" }}>
               Download Feedback Loops
+            </button>
+          </Card>
+
+          <Card style={{ padding:24 }}>
+            <div style={{ fontSize:14, fontWeight:700, marginBottom:4 }}>Research Export</div>
+            <div style={{ fontSize:12, color:C.textSec, marginBottom:16 }}>Export all research docs as a clean text file for LLM input.</div>
+            <button onClick={()=>{
+              let txt="RESEARCH DOCS\nExported: "+new Date().toISOString().split("T")[0]+"\n"+"=".repeat(60)+"\n\n";
+              docs.forEach(d=>{
+                txt+="*".repeat(60)+"\n";
+                txt+=d.title.toUpperCase()+"\n";
+                txt+="*".repeat(60)+"\n";
+                txt+="Created: "+(d.createdAt||"")+" | Updated: "+(d.updatedAt||"")+"\n\n";
+                txt+=d.content+"\n\n";
+                txt+="\n";
+              });
+              txt+=`\nTOTAL DOCS: ${docs.length}\n`;
+              const dataUrl="data:text/plain;charset=utf-8,"+encodeURIComponent(txt);
+              const a=document.createElement("a");a.href=dataUrl;a.download=`research-export-${new Date().toISOString().split("T")[0]}.txt`;a.click();
+            }} style={{ background:C.purple, color:"#fff", border:"none", borderRadius:8, padding:"10px 20px", fontSize:13, fontWeight:600, cursor:"pointer" }}>
+              Download All Research
             </button>
           </Card>
         </div>
