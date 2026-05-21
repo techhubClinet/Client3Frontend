@@ -116,6 +116,104 @@ const samples = [
 const sampleLoops = [{"id": "fl36cc1cfe", "batchId": "b36cc1cfe", "videoLink": "https://www.facebook.com/reel/1132059775461308", "imageData": "", "hypothesisWhy": "* Hook is very cruisity driven \n* A good mechanism Timeline explaining each day what the product does\n* A Good Scrasity how each \u201c the plant\u201d is extract in small runs make it the product \u201c special \u201c waiting week to restoke creates scrarecity\n* Perfectly executed solution aware.", "actionPlan": "* Iterate on new whitelist pages \n* New visuals asap \n* New hooks test\n* New voiceovers", "completed": true, "createdAt": "2025-12-24"}, {"id": "fl9e92161f", "batchId": "b9e92161f", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-12-24"}, {"id": "fle39614e7", "batchId": "be39614e7", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-12-24"}, {"id": "fla9bccd3e", "batchId": "ba9bccd3e", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-01-01"}, {"id": "fl7b34563c", "batchId": "b7b34563c", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-01-04"}, {"id": "fled9ad062", "batchId": "bed9ad062", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-01-04"}, {"id": "flc5270e05", "batchId": "bc5270e05", "videoLink": "https://www.facebook.com/61585526673688/posts/122111045529184222/", "imageData": "", "hypothesisWhy": "We launched this brand a month ago this mof isnt ready\nFor this type of brand Very confusing concept.", "actionPlan": "Status: Killed \u2014 brand not ready", "completed": true, "createdAt": "2025-01-15"}, {"id": "fl2827527f", "batchId": "b2827527f", "videoLink": "https://www.facebook.com/reel/1614526286232570", "imageData": "", "hypothesisWhy": "- Hypothesis 1: The negative marketing frame (\"3 reasons I hate this\") attracts curiosity clickers, not buyers \u2014 high CTR but low purchase intent traffic, evidenced by the massive ATC-to-purchase drop (12 ATCs \u2192 1 purchase on Ad 3).\nHypothesis 2: The sarcastic tone creates a trust gap at checkout. The target demo (older smokers with real lung problems) may enjoy the content but not feel confident enough to buy from a brand that led with irony rather than sincerity.\nHypothesis 3: Ad-to-landing pa", "actionPlan": "Action 1: Let Ad \"2\" continue running at $40/day. It's the strongest performer at 1.80 ROAS. Give it $150\u2013200 more spend to confirm the signal holds with statistical significance. Monitor frequency \u2014 kill it if it hits 2.5+.\nAction 2: If Ad \"2\" stalls, build a direct response version: strip the negative angle, lead with a tight \"this mullein cleared my lungs\" transformation hook, and pair it with a dedicated mullein-specific LP that matches the message exactly \u2014 problem, mechanism, proof, offer,", "completed": true, "createdAt": ""}, {"id": "fl42bc4642", "batchId": "b42bc4642", "videoLink": "https://www.facebook.com/reel/830130550061289", "imageData": "", "hypothesisWhy": "-Weak UMP mechanism\nWeak overused mechanism everyone has heard it \nNew angle with no congruency lining page. This angle would have worked if maybe we had a direct grounding page with it. But still, the mechanism is so bad that it is saturated. I think we need to find a better mechanism.\nNot meeting the customers at the right time in the head, of course, after the hook you went straight for the mechanism. Nobody wants to hear their long lecture about how smoking damages their lungs is just insane", "actionPlan": "Very congruent direct response landing page.\nBefore running any mechanism, check if the mechanism meets certain metrics? Has her does the customer notice metric? Does the customer notice his mechanism? Have they heard her before? Is this really a good mechanism? Compared his mechanism to other", "completed": true, "createdAt": ""}, {"id": "fl22ce9422", "batchId": "b22ce9422", "videoLink": "https://www.facebook.com/61585526673688/posts/122113926507184222/", "imageData": "", "hypothesisWhy": "-Very pattern interrupt hook, telling people how to spot between the fakes and real. Very pattern interrupt curiosity, they want to know what's real, how to spot the real and how to spot the fakes.\n-iteraion on winning angle \u201c fake mullein\u201d\n- proof of study \u201c the author\u201d \n- exposing mechanism \nPersonal perspective exposing.", "actionPlan": "More hooks. We're going to test more hooks.\nMore concepts around this angle.", "completed": true, "createdAt": ""}, {"id": "flfa2a237f", "batchId": "bfa2a237f", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": ""}, {"id": "flfdff786e", "batchId": "bfdff786e", "videoLink": "https://www.facebook.com/reel/1614526286232570", "imageData": "", "hypothesisWhy": "- I believe they know that they're being advertised to. The second thing I believe is that they don't like watching news.Very good angle, but we can definitely do better. There's definitely a way to introduce this new angle. This is not a great way to introduce it. A new format will be better. I believe this angle failed because the way I mean maybe breaking news isn't something that we should have done. Overall CTR is completely garbage. People do not like this concept; they know that they're b", "actionPlan": "Testing new ways to describe this angle.\nMini ugc style \nStatic styles \nDefinitely not a news style.", "completed": true, "createdAt": ""}, {"id": "fl50660022", "batchId": "b50660022", "videoLink": "https://www.facebook.com/reel/1614526286232570", "imageData": "", "hypothesisWhy": "New Mechanism reframe \u2014 why everything else failed\nSpeaking the subgroup's language \u2014 naming their drugs, their side effects, their emotional reality\nThe dignity/independence fantasy \u2014 \"my doctor wanted to know what I was taking\" as a power reversal that channels anti-Big Pharma sentiment into aspiration rather than anger\nUSPs match real desires \u2014 modest, believable outcomes (spacing out flare-ups, breathing a bit easier)\nHook sourced from real proof \u2014 22% from an Amazon review gives it an authe", "actionPlan": "7 hook iterations \nNew format TOF PO", "completed": true, "createdAt": ""}, {"id": "fl591ea3e4", "batchId": "b591ea3e4", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": ""}, {"id": "fla1a71737", "batchId": "ba1a71737", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-02-20"}, {"id": "flb3e60b88", "batchId": "bb3e60b88", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-02-26"}, {"id": "fl90810b71", "batchId": "b90810b71", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "", "actionPlan": "New hooks \nNew concepts via monk", "completed": true, "createdAt": "2025-02-27"}, {"id": "fl9e698fd7", "batchId": "b9e698fd7", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-03-02"}, {"id": "fl3b0eb1f3", "batchId": "b3b0eb1f3", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "", "actionPlan": "we cut the \nbig phrama part \nwe make better statics \nwe cut the aggresive cta \n redo the ad", "completed": true, "createdAt": "2025-03-03"}, {"id": "fl8ee156a8", "batchId": "b8ee156a8", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "", "actionPlan": "What am I going to do differently as a result of this NEW information? (Ranked most confident to least", "completed": true, "createdAt": "2025-03-04"}, {"id": "flad011aba", "batchId": "bad011aba", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "", "actionPlan": "More hooks\nBetter reasoning \nNew possible lead", "completed": true, "createdAt": "2025-03-04"}, {"id": "flf9d2b31a", "batchId": "bf9d2b31a", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "", "actionPlan": "-Test more hooks \n- Possibly more New visuals", "completed": true, "createdAt": "2025-03-05"}, {"id": "fl715fc3c6", "batchId": "b715fc3c6", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a winning ad? (Ranked most confident to least  \n      * Prev winner it worked because of discount code we had in that static \n\n- mechanism war Are the monies in the market? You have to stand out by saying 20x stronger than the mechanism. Make it work. \n\n- Relatable message than anything you have tried. We acknowledge that they have tried other fake stuff and other diluted Mullein.", "actionPlan": "- same image- 3 diff new Relatable messaging.\n- Different pattern interrupt image- With the same messaging right now\nWhat am I going to do differently as a result of this NEW information? (Ranked most confident to least", "completed": true, "createdAt": "2025-03-11"}, {"id": "fl7ddebf27", "batchId": "b7ddebf27", "videoLink": "", "imageData": "", "hypothesisWhy": "", "actionPlan": "", "completed": true, "createdAt": "2025-03-11"}, {"id": "fldf5e75c3", "batchId": "bdf5e75c3", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a  losing ad? (Ranked most confident to least\n-boring mechanism ( they heard dozens of times) \n-Week hook ( the hook rates show is)\n- Introduce product too fast ( no connection whats so ever)", "actionPlan": "DEAD ANGLE NO ACTIONABLE STEPS \nMaybe a new mechansim i thkn idk fuck this angle.\nDr. Julian, ever since I stopped smoking, I get winded just walking to my car. I thought quitting was supposed to fix that. I get asked this every single day, and the answer is simple. Quitting stopped the damage, but it did not clear it. You see, you have a cleanup crew inside your lungs. Tiny hairs called cilia. Their only job, sweep the mucus out. every day on autopilot. And when you used to smoke, that cleanup ", "completed": true, "createdAt": "2025-03-15"}, {"id": "fle1efa123", "batchId": "be1efa123", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a losing ad? (Ranked most confident to least\n- Not calling out a direct avatar seems like this is abroad, this goes to everybody, rOnce you call out your avatar, you will filter out the rest.\n- skeptics about 1 ingredient doing all those things maybe tripel ingredients", "actionPlan": "Rewrite the ad using the new", "completed": true, "createdAt": "2025-03-18"}, {"id": "flfcf92c09", "batchId": "bfcf92c09", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a  losing ad? (Ranked most confident to least\nThis angle is a rinsed angle. I've used it more than 15 times in concepts. I feel like people are tired of it, and for this angle to win again, we need a dedicated landing page. I've rinsed this angle a lot of times.\n\n- This angle is like a pharmacist. Why is a pharmacist recommending a herbal?I mean, isn't he a part of the big pharma? It's kind of, I don't know, maybe a bit of an unbelievable story there. It's just, why would a pharmacis", "actionPlan": "- rinsed format \n- need new LP for these \nFired Pharmacist explains why CVS lung supplements will never clear your smoker's lungs. Mucinex, herbal cough syrups, put them right back on the shelf because these only thin the fresh mucus sitting on top. The deep tar that's been hardening in your lungs for 10, 20, 30 years. They were never designed to go that deep. You'll blow your nose for a day and nothing actually changes. In AC supplements, people grab these thinking it's a lung detox. It's an an", "completed": true, "createdAt": ""}, {"id": "flf57892e6", "batchId": "bf57892e6", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a winning ad? (Ranked most confident to least\n\n- winning message we had that was already a winner \n- iteration of winning ad ranking\nVery good author figure, ma", "actionPlan": "-Action 2: Produce the Next Iteration of the Competitive Teardown \n- More hooks", "completed": true, "createdAt": "2025-03-26"}, {"id": "fl44d82574", "batchId": "b44d82574", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a  Losing ad? (Ranked most confident to least\n            * Smoker being lectured ( smokers hate this ) they already know waht happen if they keep smoking\n- cruisty based ad that gets soft metrics but not real buyers", "actionPlan": "1. Write the first-person UGC", "completed": true, "createdAt": "2025-03-28"}, {"id": "fla6ce4e33", "batchId": "ba6ce4e33", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a winning ad  \n- Winning trending format\n- each ingredient links pain point \n- mechanism all in one dropper", "actionPlan": "More ai ingredients ads \nBetter ai speaking", "completed": true, "createdAt": "2025-04-04"}, {"id": "fl30b30d78", "batchId": "b30b30d78", "videoLink": "https://www.facebook.com/61585526673688/posts/122109303579184222/", "imageData": "", "hypothesisWhy": "-blue ocean angle ( Targeting a segment of audience where they have seen these types of chlorophyll mullein. Alright, and I failed at it. Telling them why I failed and what is real and fake.\n- A real research That backs up the claim that we're making.\n\n- The hook is very patterned, and it's just not something that you would expect. It's like, \"Whoa, what is the answer? I need to know what the did. Maybe I've tried that, maybe that's why it didn't work.\"It's just something that they need to know.", "actionPlan": "* 3-4 new hooks/ visual\n      * 1 new edit with new clips new voice", "completed": true, "createdAt": ""}, {"id": "fl8b2ca9c0", "batchId": "b8b2ca9c0", "videoLink": "", "imageData": "", "hypothesisWhy": ": First, a personalized, honest review about the mullein products\n- Meet the customer exactly at what awareness stage there at  .These are mof  for customers who know about Mullen.", "actionPlan": "New hooks, same body\n      * Same hook, new presenter\n      * Same", "completed": true, "createdAt": ""}, {"id": "fl7f3a498c", "batchId": "b7f3a498c", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "Why is this a  Losing ad? (Ranked most confident to least\n         * Claim structure instead of conditional structure \u2014 \"Best herb for smokers who want X\" triggers skepticism instantly. \"If a smoker took X, this would happen\" makes them feel it themselves. One is you selling. One is them discovering.\n         * No timelines \u2014 \"10 days\" \"one week\" \"two weeks\" made the outcome feel real and close. You removed every single one. Without a timeline it's just a vague promise.\n         * No mechanism \u2014", "actionPlan": "Test more avatars not for only smoklers \nIf someone with asthma took 2\nIf a someone with copd took _ _ \nBack to old strutcher", "completed": true, "createdAt": ""}, {"id": "fla136c51e", "batchId": "ba136c51e", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "-", "actionPlan": "", "completed": true, "createdAt": ""}, {"id": "fl2f0d2fe9", "batchId": "b2f0d2fe9", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "- \n  \n\n  \n               * \nHard dr copy no one says \u201c scary levels of lung crarity\u201d \n- customer voice not matched", "actionPlan": "Test new reviews instead , that customers say swap it out.", "completed": true, "createdAt": ""}, {"id": "fl4edd42c4", "batchId": "b4edd42c4", "videoLink": "https://www.facebook.com/61588589067153/posts/122100881859286302/", "imageData": "", "hypothesisWhy": "-there is no more initial thought behind this ad why it first worked why it became a winner that i copied so i just monkey see monkey do turns out to be miserable ad", "actionPlan": "No actions plan terrible ad", "completed": true, "createdAt": ""}];
 
 const genId = () => "b" + Date.now().toString(36) + Math.random().toString(36).substr(2, 4);
+
+/** Cursor canvas provides window.storage; Vite/browser uses localStorage fallback. */
+if (typeof window !== "undefined") {
+  const hasHostStorage =
+    window.storage &&
+    typeof window.storage.get === "function" &&
+    typeof window.storage.set === "function";
+  if (!hasHostStorage) {
+    const prefix = "creative-ops:";
+    window.storage = {
+      async get(key) {
+        try {
+          let raw = localStorage.getItem(prefix + key);
+          if (raw === null) raw = localStorage.getItem(key);
+          if (raw === null) return undefined;
+          return { value: raw };
+        } catch {
+          return undefined;
+        }
+      },
+      async set(key, value) {
+        try {
+          localStorage.setItem(
+            prefix + key,
+            typeof value === "string" ? value : String(value)
+          );
+        } catch {}
+      },
+      async delete(key) {
+        try {
+          localStorage.removeItem(prefix + key);
+        } catch {}
+      },
+    };
+  }
+}
+
+/** Backend URL: set in frontend/src/appConfig.js (loaded via main.jsx → window.__CREATIVE_OPS_API__) */
+const LS_TOKEN_KEY = "creative-ops-jwt";
+function getCreativeOpsApiBase() {
+  if (typeof window !== "undefined" && window.__CREATIVE_OPS_API__) {
+    return String(window.__CREATIVE_OPS_API__).replace(/\/$/, "");
+  }
+  return "";
+}
+
+async function apiFetchPublic(base, path, options = {}) {
+  const url = `${base}${path}`;
+  const headers = { "Content-Type": "application/json", ...options.headers };
+  const r = await fetch(url, { ...options, headers });
+  const text = await r.text();
+  let data;
+  try {
+    data = text ? JSON.parse(text) : null;
+  } catch {
+    data = { raw: text };
+  }
+  if (!r.ok) throw new Error(data?.error || data?.message || r.statusText || "Request failed");
+  return data;
+}
+
+function normalizeBatch(b) {
+  return {
+    ...b,
+    isNew: b.isNew === "New Messaging" ? "Ideation" : b.isNew,
+    date:
+      b.date && b.date.startsWith("2025-") && !b.date.startsWith("2025-12")
+        ? b.date.replace("2025-", "2026-")
+        : b.date,
+  };
+}
+
+async function apiFetchAuth(base, token, path, options = {}) {
+  if (!token) throw new Error("Not logged in");
+  const headers = {
+    "Content-Type": "application/json",
+    Authorization: `Bearer ${token}`,
+    ...options.headers,
+  };
+  const url = `${base}${path}`;
+  const r = await fetch(url, { ...options, headers });
+  const text = await r.text();
+  let data;
+  try {
+    data = text ? JSON.parse(text) : null;
+  } catch {
+    data = { raw: text };
+  }
+  if (r.status === 401) {
+    try {
+      localStorage.removeItem(LS_TOKEN_KEY);
+    } catch {}
+    throw new Error("Session expired — log in again");
+  }
+  if (!r.ok) throw new Error(data?.error || data?.message || r.statusText || "Request failed");
+  return data;
+}
+
 const getMediaType = (dataUrl, hint) => {
   if (!dataUrl) return "none";
   if (hint === "image") return "image";
@@ -319,7 +417,6 @@ export default function App() {
     };
   }, [apiBase]);
 
-  useEffect(()=>{ (async()=>{ try { const g=await window.storage.get("creative-goal"); if(g?.value) setWeeklyGoal(parseInt(g.value)||7); } catch{} try { const br=await window.storage.get("creative-brands"); if(br?.value) { const d=JSON.parse(br.value); setBrands(d.list||["OriginDrops"]); setCurrentBrand(d.current||"OriginDrops"); } } catch{} })(); },[]);
   const [viewMode, setViewMode] = useState("table");
   const [selectedBatches, setSelectedBatches] = useState(new Set());
   const [lastSelected, setLastSelected] = useState(null);
@@ -327,6 +424,7 @@ export default function App() {
   const [sortCol, setSortCol] = useState("date");
   const [sortDir, setSortDir] = useState("desc");
   const [drill, setDrill] = useState(null); // {field, value, label}
+  const [selectedWeek, setSelectedWeek] = useState(null);
   const [resultPicker, setResultPicker] = useState(null);
   const [statusPicker, setStatusPicker] = useState(null);
   const [loops, setLoops] = useState([]);
@@ -338,10 +436,13 @@ export default function App() {
   const [showDoc, setShowDoc] = useState(false);
   const [editDoc, setEditDoc] = useState(null);
   const [docForm, setDocForm] = useState({ title:"", content:"" });
+  const [docMode, setDocMode] = useState("read");
   const [ideas, setIdeas] = useState([]);
   const [showIdea, setShowIdea] = useState(false);
   const [editIdeaId, setEditIdeaId] = useState(null);
   const [ideaForm, setIdeaForm] = useState({ date:"", idea:"", inspo:"", status:"Pending" });
+
+  useEffect(()=>{ (async()=>{ try { const g=await window.storage.get("creative-goal"); if(g?.value) setWeeklyGoal(parseInt(g.value)||7); } catch{} try { const br=await window.storage.get("creative-brands"); if(br?.value) { const d=JSON.parse(br.value); setBrands(d.list||["OriginDrops"]); setCurrentBrand(d.current||"OriginDrops"); } } catch{} })(); },[]);
 
   useEffect(() => {
     stateRef.current = { batches, loops, docs, ideas };

@@ -36,10 +36,17 @@ out = out.replace(
   'import { useState, useEffect, useCallback, useMemo, useRef } from "react";'
 );
 
+const genIdLine = out.match(/const genId = \(\) => [^\n]+;\n/);
+if (!genIdLine) throw new Error("Could not find genId line in new frontend");
 out = out.replace(
-  /const genId = \(\) => "[^"]+";\nconst getMediaType/,
-  `const genId = () => "b" + Date.now().toString(36) + Math.random().toString(36).substr(2, 4);\n\n${preamble}const getMediaType`
+  genIdLine[0],
+  genIdLine[0] + "\n" + preamble
 );
+
+// State hooks from new UI that must survive the API block splice
+const preservedStateHooks = `  const [selectedWeek, setSelectedWeek] = useState(null);
+  const [docMode, setDocMode] = useState("read");
+`;
 
 const brandMarker = "  const [brandConfirm, setBrandConfirm] = useState(null);";
 const migrateMarker = "  // Migrate feedback loop content";
@@ -53,6 +60,7 @@ out =
   "\n\n" +
   apiBlock +
   "\n\n" +
+  preservedStateHooks +
   out.slice(mi);
 
 const newDmMarker =
