@@ -1029,7 +1029,28 @@ export default function App() {
             ))}
           </div>
         </div>
-        <button onClick={()=>{setTab("batches");setShowForm(true);setEditId(null);setDetail(null);setForm({...empty,name:`Batch #${nextBatchNum()}`,date:new Date().toISOString().split("T")[0]});}} style={{ background:C.purple, color:"#fff", border:"none", borderRadius:8, padding:"8px 18px", fontSize:13, fontWeight:600, cursor:"pointer" }}>+ New Brief</button>
+        <div style={{ display:"flex", alignItems:"center", gap:10 }}>
+          {apiBase && (
+            <div style={{ display:"flex", alignItems:"center", gap:8 }}>
+              {apiToken ? (
+                <>
+                  <span style={{ fontSize:12, color:C.greenText, fontWeight:600, padding:"6px 10px", borderRadius:8, background:C.greenBg }}>Connected</span>
+                  {apiSyncing && <span style={{ fontSize:11, color:C.textTer }}>Syncing…</span>}
+                  <button type="button" onClick={()=>reloadBrandData()} disabled={apiBusy} style={{ background:C.white, border:`1px solid ${C.border}`, borderRadius:8, padding:"6px 12px", fontSize:12, cursor:"pointer", color:C.textSec }}>Refresh</button>
+                  <button type="button" onClick={doApiLogout} style={{ background:C.white, border:`1px solid ${C.border}`, borderRadius:8, padding:"6px 12px", fontSize:12, cursor:"pointer", color:C.textSec }}>Log out</button>
+                </>
+              ) : (
+                <form onSubmit={doApiLogin} style={{ display:"flex", alignItems:"center", gap:6 }}>
+                  <input type="email" autoComplete="username" placeholder="Admin email" value={apiLoginEmail} onChange={(e)=>setApiLoginEmail(e.target.value)} style={{ border:`1px solid ${C.border}`, borderRadius:8, padding:"7px 10px", fontSize:12, width:160 }} />
+                  <input type="password" autoComplete="current-password" placeholder="Password" value={apiLoginPassword} onChange={(e)=>setApiLoginPassword(e.target.value)} style={{ border:`1px solid ${C.border}`, borderRadius:8, padding:"7px 10px", fontSize:12, width:120 }} />
+                  <button type="submit" disabled={apiBusy} style={{ background:C.purple, color:"#fff", border:"none", borderRadius:8, padding:"7px 14px", fontSize:12, fontWeight:600, cursor:"pointer" }}>{apiBusy ? "…" : "Log in"}</button>
+                </form>
+              )}
+              {apiError && <span style={{ fontSize:11, color:C.redText, maxWidth:140 }}>{apiError}</span>}
+            </div>
+          )}
+          <button onClick={()=>{setTab("batches");setShowForm(true);setEditId(null);setDetail(null);setForm({...empty,name:`Batch #${nextBatchNum()}`,date:new Date().toISOString().split("T")[0]});}} style={{ background:C.purple, color:"#fff", border:"none", borderRadius:8, padding:"8px 18px", fontSize:13, fontWeight:600, cursor:"pointer" }}>+ New Brief</button>
+        </div>
       </div>
 
       <div style={{ padding:"24px 32px", maxWidth:1360, margin:"0 auto" }}>
