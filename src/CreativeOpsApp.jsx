@@ -956,6 +956,31 @@ export default function App() {
 
   if(!loaded) return <div style={{ background:C.bg, minHeight:"100vh", display:"flex", alignItems:"center", justifyContent:"center", fontFamily:"Inter,sans-serif", color:C.textSec }}>Loading...</div>;
 
+  if (apiBase && !apiToken) {
+    return (
+      <div style={{ minHeight:"100vh", background:"#f3f4f6", display:"flex", alignItems:"center", justifyContent:"center", padding:24, fontFamily:"'Inter',-apple-system,sans-serif", color:C.text }}>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+        <div style={{ width:"100%", maxWidth:420, background:C.white, border:`1px solid ${C.border}`, borderRadius:14, boxShadow:"0 20px 40px rgba(0,0,0,0.08)", padding:"28px 26px" }}>
+          <div style={{ width:52, height:52, borderRadius:12, margin:"0 auto 14px", background:`linear-gradient(135deg,${C.purple},#8b7cf7)`, display:"flex", alignItems:"center", justifyContent:"center" }}>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.2" strokeLinecap="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <div style={{ textAlign:"center", marginBottom:22 }}>
+            <div style={{ fontSize:24, fontWeight:800, marginBottom:6 }}>Welcome</div>
+            <div style={{ fontSize:13, color:C.textSec }}>Sign in to access Creative Ops dashboard.</div>
+          </div>
+          <form onSubmit={doApiLogin} style={{ display:"flex", flexDirection:"column", gap:10 }}>
+            <input type="email" autoComplete="username" placeholder="Email address" value={apiLoginEmail} onChange={(e)=>setApiLoginEmail(e.target.value)} style={{ border:`1px solid ${C.border}`, borderRadius:8, padding:"10px 12px", fontSize:14 }} />
+            <input type="password" autoComplete="current-password" placeholder="Password" value={apiLoginPassword} onChange={(e)=>setApiLoginPassword(e.target.value)} style={{ border:`1px solid ${C.border}`, borderRadius:8, padding:"10px 12px", fontSize:14 }} />
+            {apiError && <div style={{ fontSize:12, color:C.redText }}>{apiError}</div>}
+            <button type="submit" disabled={apiBusy} style={{ marginTop:2, background:"#111827", color:"#fff", border:"none", borderRadius:8, padding:"11px 14px", fontSize:14, fontWeight:600, cursor:"pointer" }}>
+              {apiBusy ? "Signing in..." : "Continue"}
+            </button>
+          </form>
+        </div>
+      </div>
+    );
+  }
+
   const ringSize=140, ringR=(ringSize-10)/2, ringCirc=2*Math.PI*ringR;
 
   return (
@@ -1032,21 +1057,10 @@ export default function App() {
         <div style={{ display:"flex", alignItems:"center", gap:10 }}>
           {apiBase && (
             <div style={{ display:"flex", alignItems:"center", gap:8 }}>
-              {apiToken ? (
-                <>
-                  <span style={{ fontSize:12, color:C.greenText, fontWeight:600, padding:"6px 10px", borderRadius:8, background:C.greenBg }}>Connected</span>
-                  {apiSyncing && <span style={{ fontSize:11, color:C.textTer }}>Syncing…</span>}
-                  <button type="button" onClick={()=>reloadBrandData()} disabled={apiBusy} style={{ background:C.white, border:`1px solid ${C.border}`, borderRadius:8, padding:"6px 12px", fontSize:12, cursor:"pointer", color:C.textSec }}>Refresh</button>
-                  <button type="button" onClick={doApiLogout} style={{ background:C.white, border:`1px solid ${C.border}`, borderRadius:8, padding:"6px 12px", fontSize:12, cursor:"pointer", color:C.textSec }}>Log out</button>
-                </>
-              ) : (
-                <form onSubmit={doApiLogin} style={{ display:"flex", alignItems:"center", gap:6 }}>
-                  <input type="email" autoComplete="username" placeholder="Admin email" value={apiLoginEmail} onChange={(e)=>setApiLoginEmail(e.target.value)} style={{ border:`1px solid ${C.border}`, borderRadius:8, padding:"7px 10px", fontSize:12, width:160 }} />
-                  <input type="password" autoComplete="current-password" placeholder="Password" value={apiLoginPassword} onChange={(e)=>setApiLoginPassword(e.target.value)} style={{ border:`1px solid ${C.border}`, borderRadius:8, padding:"7px 10px", fontSize:12, width:120 }} />
-                  <button type="submit" disabled={apiBusy} style={{ background:C.purple, color:"#fff", border:"none", borderRadius:8, padding:"7px 14px", fontSize:12, fontWeight:600, cursor:"pointer" }}>{apiBusy ? "…" : "Log in"}</button>
-                </form>
-              )}
-              {apiError && <span style={{ fontSize:11, color:C.redText, maxWidth:140 }}>{apiError}</span>}
+              <span style={{ fontSize:12, color:C.greenText, fontWeight:600, padding:"6px 10px", borderRadius:8, background:C.greenBg }}>Connected</span>
+              {apiSyncing && <span style={{ fontSize:11, color:C.textTer }}>Syncing...</span>}
+              <button type="button" onClick={()=>reloadBrandData()} disabled={apiBusy} style={{ background:C.white, border:`1px solid ${C.border}`, borderRadius:8, padding:"6px 12px", fontSize:12, cursor:"pointer", color:C.textSec }}>Refresh</button>
+              <button type="button" onClick={doApiLogout} style={{ background:C.white, border:`1px solid ${C.border}`, borderRadius:8, padding:"6px 12px", fontSize:12, cursor:"pointer", color:C.textSec }}>Log out</button>
             </div>
           )}
           <button onClick={()=>{setTab("batches");setShowForm(true);setEditId(null);setDetail(null);setForm({...empty,name:`Batch #${nextBatchNum()}`,date:new Date().toISOString().split("T")[0]});}} style={{ background:C.purple, color:"#fff", border:"none", borderRadius:8, padding:"8px 18px", fontSize:13, fontWeight:600, cursor:"pointer" }}>+ New Brief</button>
